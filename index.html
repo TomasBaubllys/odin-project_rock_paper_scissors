@@ -6,6 +6,26 @@
     <script src="index.js"></script>
     <title>Document</title>
 </head>
+<style>
+    body {
+        background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button {
+        background-color:cadetblue;
+        size: 128px;
+        border-color: white;
+    }
+</style>
 <body>
+    <h1>Human vs machine</h1>
+    <button onclick="playFiveRounds()">Start the war!</button>
+    <div>Scoreboard :</div>
+    <div>Human : <span id="hScore">0</span> Computer : <span id="cScore">0</span></div>
+    <div id="result : "><span id="result"></span></div>
 </body>
 </html>
